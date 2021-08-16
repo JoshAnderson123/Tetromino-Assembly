@@ -18,8 +18,8 @@ def place_piece(weighted_dict, P, x, y, width, height, piecesPlaced, solution, p
   Parameters:
   weighted_dict (dict): Dictionary form of the weighted board
   P (dict): Set of available tetromino pieces
-  x (int): x-position of current target tile
-  y (int): y-position of current target tile
+  x (int): x position of the current target tile
+  y (int): y-position of the current target tile
   width (int): width of the board
   height (int): height of the board
   piecesPlaced (int): the number of pieces currently placed

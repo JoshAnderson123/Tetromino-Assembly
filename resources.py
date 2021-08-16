@@ -1,7 +1,7 @@
 # -- resources.py --
 # Provides resources for main.py, including piece coordinate data and adjacted coordinates
 
-# Relative coordinates for each of the 19 pieces
+# Relative coordinates for each of the 19 tetromino pieces
 def ids(piece_id=0):
     pieceCoords = {
         1: [[0, 0], [0, 1], [1, 0], [1, 1]],
